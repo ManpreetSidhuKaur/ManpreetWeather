@@ -11,6 +11,8 @@
 		EDA14BD82CE668880080ED64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA14BD72CE668880080ED64 /* ContentView.swift */; };
 		EDA14BDA2CE6688A0080ED64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA14BD92CE6688A0080ED64 /* Assets.xcassets */; };
 		EDA14BDD2CE6688A0080ED64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA14BDC2CE6688A0080ED64 /* Preview Assets.xcassets */; };
+		EDA14BE62CE66A2E0080ED64 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA14BE52CE66A2E0080ED64 /* WeatherModel.swift */; };
+		EDA14C1E2CE9714A0080ED64 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA14C1D2CE9714A0080ED64 /* WeatherViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		EDA14BD72CE668880080ED64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDA14BD92CE6688A0080ED64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDA14BDC2CE6688A0080ED64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDA14BE52CE66A2E0080ED64 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		EDA14C1D2CE9714A0080ED64 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				EDA14BD72CE668880080ED64 /* ContentView.swift */,
 				EDA14BD92CE6688A0080ED64 /* Assets.xcassets */,
 				EDA14BDB2CE6688A0080ED64 /* Preview Content */,
+				EDA14BE52CE66A2E0080ED64 /* WeatherModel.swift */,
+				EDA14C1D2CE9714A0080ED64 /* WeatherViewModel.swift */,
 			);
 			path = ManpreetWeather;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA14C1E2CE9714A0080ED64 /* WeatherViewModel.swift in Sources */,
 				EDA14BD82CE668880080ED64 /* ContentView.swift in Sources */,
 				EDA14BD62CE668880080ED64 /* ManpreetWeatherApp.swift in Sources */,
+				EDA14BE62CE66A2E0080ED64 /* WeatherModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +293,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				NSLocationWhenInUseUsageDescription = "We need your location to display weather information";
 				PRODUCT_BUNDLE_IDENTIFIER = "Manpreet-Kaur.ManpreetWeather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -314,6 +324,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				NSLocationWhenInUseUsageDescription = "We need your location to display weather information";
 				PRODUCT_BUNDLE_IDENTIFIER = "Manpreet-Kaur.ManpreetWeather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
